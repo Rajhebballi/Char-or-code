@@ -1,16 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -69,6 +58,47 @@
         border-radius: 5px;
         cursor: crosshair;
       }
+      .nav2 {
+        /* border: 2px solid red; */
+        background-color: #229d42;
+        width: 200px;
+        padding: 20px;
+      }
+      .nav2 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .nav2 li {
+        margin-bottom: 12px;
+      }
+      .nav2 a {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        width: 100%;
+        padding: 10px;
+      }
+      .nav2 a:hover {
+        background-color: #00b509;
+      }
+      .nav2 a:active {
+        background-color: #12d4b7;
+      }
+      .nav2 .login_btn {
+        background-color: #5ce1379d;
+        color: white;
+        padding: 3px;
+        width: 100%;
+        height: 35px;
+        border-radius: 5px;
+        border: none;
+        margin-left: 0px;
+        cursor: pointer;
+      }
+      .nav2 .login_btn:hover {
+        background-color: #0ee20a;
+      }
     </style>
   </head>
   <body>
@@ -90,6 +120,7 @@
           <li><a href="Home">Home</a></li>
           <li><a href="About">About</a></li>
           <li><a href="Products">Products</a></li>
+          <li><button class="login_btn">Login</button></li>
         </ul>
       </nav>
     </div>
